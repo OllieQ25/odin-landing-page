@@ -11,6 +11,7 @@ body {
 img {
     width: auto;
     height: 300px;
+    margin-bottom: 20px;
     
 }
 
@@ -87,11 +88,12 @@ h1 {
 .header .container {
     background: #1F2937;
     display: flex;
-    height: 400px;
+    min-height: 400px;
     justify-content: center;
     align-items: center;
     gap: 50px;
     flex-wrap: wrap;
+    
     
     
 }
@@ -106,8 +108,10 @@ h1 {
     display: flex;
     justify-content: center;
     margin-top: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 75x;
     gap: 50px;
+    flex-wrap: wrap;
+    min-height: 350px;
     
 
     
@@ -133,11 +137,12 @@ h1 {
     background: #E5E7EB;
     font-size: 36px;
     font-style: italic;
-    height: 350px;
+    min-height: 350px;
     align-items: center;
     flex-wrap: wrap;
     padding: 100px;
     justify-content: center;
+    
     
 
 }
