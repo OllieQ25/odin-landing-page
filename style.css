@@ -9,8 +9,9 @@ body {
 }
 
 img {
-    width: 400px;
-    height: auto;
+    width: auto;
+    height: 300px;
+    
 }
 
 .navbar {
@@ -32,6 +33,7 @@ ul, a {
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    margin: 20px;
     
 }
 
@@ -42,14 +44,20 @@ h1 {
 
 }
 
-.hero {
+.hero-text {
     font-size: 18px;
     color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    
 
 }
 
 .button, .action {
     background-color: #3882F6;
+    font-size: 20px;
+    max-width: 100px;
 }
 
 .navbar .container {
@@ -67,4 +75,47 @@ h1 {
 .navbar ul li {
     margin-left: 20px;
     margin-right: 50px;
+}
+
+.header .container {
+    background: #1F2937;
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    
+    
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    gap: 50px;
+    
+
+    
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border: 5px solid lightblue;
+    border-radius: 25px;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.box p {
+    margin-top: 130px;
 }
