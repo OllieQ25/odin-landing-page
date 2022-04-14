@@ -119,3 +119,19 @@ h1 {
 .box p {
     margin-top: 130px;
 }
+
+
+.quote {
+    display: flex;
+    background: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    height: 350px;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 100px;
+    justify-content: center;
+    
+
+}
+
