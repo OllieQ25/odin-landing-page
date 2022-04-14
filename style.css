@@ -57,7 +57,14 @@ h1 {
 .button, .action {
     background-color: #3882F6;
     font-size: 20px;
-    max-width: 100px;
+    max-width: 150px;
+    border-radius: 20px;
+    color: #F9FAF8;
+    padding: 10px;
+}
+
+.action {
+    border-color: #F9FAF8;
 }
 
 .navbar .container {
@@ -134,4 +141,29 @@ h1 {
     
 
 }
+
+.action-container {
+    display: flex;
+    background: #3882F6;
+    padding: 50px;
+    border-radius: 25px;
+    margin: 50px;
+    justify-content: space-between;
+    color: #F9FAF8;
+    font-size: 20px;
+    
+    
+}
+
+.footer {
+    background: #1F2937;
+    color: #F9FAF8;
+    padding: 15px;
+    text-align: center;
+}
+
+
+
+
+
 
